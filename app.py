@@ -24,7 +24,8 @@ def input_pdf_setup(uploaded_file):
     if uploaded_file is not None:
 
         ## Convert the PDf to Image
-        images = pdf2image.convert_from_bytes(uploaded_file.read(), poppler_path='C:/Program Files/poppler-24.02.0/Library/bin')
+        ## images = pdf2image.convert_from_bytes(uploaded_file.read(), poppler_path='C:/Program Files/poppler-24.02.0/Library/bin')
+        images = pdf2image.convert_from_bytes(uploaded_file.read())
 
         first_page = images[0]
 
