@@ -30,4 +30,3 @@ Welcome to ATS Resume Expert, an Applicant Tracking System (ATS) powered by Goog
 
 ```bash
 streamlit run app.py
-'''
