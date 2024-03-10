@@ -1,5 +1,5 @@
 streamlit
 pillow
 pdf2image
-dotenv
+python-dotenv
 google-generativeai
