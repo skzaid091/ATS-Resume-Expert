@@ -19,7 +19,6 @@ Welcome to ATS Resume Expert, an Applicant Tracking System (ATS) powered by Goog
 4. You need to install "poppler" but don't worry I've attached a directly downloaded folder as a zip with this repo named as "poppler-24.02.0" just unzip it and move the folder the to following path "C:\Program Files".
 5. If the poppler's folder location is different than the above then update this line in the code as "poppler_path='Location to the Folder".
 
-### Running the Application
 
 ### SCREENSHOTS
 ![App Screenshot 2](/screenshots/Picture1.jpg)
@@ -27,5 +26,8 @@ Welcome to ATS Resume Expert, an Applicant Tracking System (ATS) powered by Goog
 ![App Screenshot 2](/screenshots/Picture3.jpg)
 
 
+### Running the Application
+
 ```bash
 streamlit run app.py
+'''
